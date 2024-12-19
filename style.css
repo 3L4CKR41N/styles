@@ -304,7 +304,7 @@ body, p, span {
 
 /* Infocard Styles */
 .infocard {
-    background-color: #1c1c1c; /* General color for infocards */
+    background-color: #1c1c1c; 
     border: 1px solid #00defa;
     padding: 20px;
     text-align: center;
@@ -332,7 +332,7 @@ body, p, span {
     margin-top: 10px;
     color: #b0b0b0; 
 }
-.infocard h3, .infocard p {
+.infocard h3, {
     color: #00defa; 
 }
 
@@ -509,7 +509,6 @@ body, p, span {
     opacity: 0.9;
 }
 
-/* ANONYMOUS Yazısı */
 .anonymous-title {
     font-size: 64px;
     color: #00defa;
