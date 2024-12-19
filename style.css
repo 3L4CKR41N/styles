@@ -348,8 +348,12 @@ body, p, span {
         padding: 15px;
         margin-top: 10px;
     }
-    .infocard h3, .infocard p {
+    .infocard h3 {
         color: #00defa;
+    }
+
+   .infocard p {
+        color: #gray;
     }
 
     /* Grid Layout */
