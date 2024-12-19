@@ -302,55 +302,63 @@ body, p, span {
         }
     }
 
-/* Infocard Styles */
-.infocard {
-    background-color: #1c1c1c; 
-    border: 1px solid #00defa;
-    padding: 20px;
-    text-align: center;
-    transition: transform 0.3s, box-shadow 0.3s;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    position: relative;
-    color: #e0e0e0;
-}
-.infocard:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 0 15px rgba(0, 222, 250, 0.5);
-}
-.infocard:active {
-    transform: translateY(0);
-}
-.infocard i {
-    font-size: 40px;
-    color: #d9d9d9; /* Icon color */
-    margin-bottom: 10px;
-}
-.infocard .info-content {
-    border-radius: 6px;
-    padding: 15px;
-    margin-top: 10px;
-    color: #b0b0b0; 
-}
-.infocard h3, {
-    color: #00defa; 
-}
+/* Section Styling */
+    .custom-services-section {
+        background-color: #111111; /* Section background color */
+        border-radius: 8px;
+        padding: 20px;
+        max-width: 1280px;
+        margin: 0 auto;
+    }
 
+    /* Introduction Section */
+    #introduction {
+        background-color: #111111; /* Background color of the section */
+        padding: 20px;
+        border-radius: 8px;
+    }
 
-    /* Mobile Responsiveness */
-    @media (max-width: 640px) {
-        .infocard {
-            padding: 15px;
-        }
-        .infocard i {
-            font-size: 30px;
-        }
-        .infocard h3 {
-            font-size: 1.2em;
-        }
-        .infocard p {
-            font-size: 0.9em;
-        }
+    /* Infocard Styles */
+    .infocard {
+        background-color: #1c1c1c; /* General color for infocards */
+        border: 1px solid #00defa;
+        padding: 20px;
+        text-align: center;
+        transition: transform 0.3s, box-shadow 0.3s;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        position: relative;
+        color: #e0e0e0;
+    }
+    .infocard:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 0 15px rgba(0, 222, 250, 0.5);
+    }
+    .infocard:active {
+        transform: translateY(0);
+    }
+    .infocard i {
+        font-size: 40px;
+        color: #d9d9d9; /* Icon color */
+        margin-bottom: 10px;
+    }
+    .infocard .info-content {
+        /* Removed background for text area */
+        border-radius: 6px;
+        padding: 15px;
+        margin-top: 10px;
+    }
+    .infocard h3, .infocard p {
+        color: #00defa;
+    }
+
+    /* Grid Layout */
+    .service-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        margin: 40px 0;
+        padding: 0 20px;
     }
 
 /* Contact Section Styling */
